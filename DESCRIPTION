@@ -1,7 +1,7 @@
 Package: rPBK
 Title: Inference and Prediction of Generic Physiologically-Based
         Kinetic Models
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
     person("Virgile", "Baudrot", role = c("aut","cre"), email = "virgile.baudrot@qonfluens.com"),
     person("Sandrine", "Charles", role = "aut"),
@@ -10,6 +10,7 @@ Authors@R: c(
     person("Dominique", "Lamonica", role = "ctb"),
     person("Aurélie", "Siberchicot", role = "ctb")
     )
+BugReports: https://gitlab.com/qonfluens/model/rPBK
 Description: Fit and simulate any kind of
     physiologically-based kinetic ('PBK') models whatever the number of compartments.
     Moreover, it allows to account for any link between pairs of compartments, as
@@ -26,7 +27,8 @@ Encoding: UTF-8
 RoxygenNote: 7.2.0
 Biarch: true
 Depends: R (>= 3.4.0)
-Imports: ggplot2, methods, Rcpp (>= 0.12.0), rstan (>= 2.18.1)
+Imports: ggplot2, methods, Rcpp (>= 0.12.0), rstan (>= 2.18.1),
+        rstantools
 LinkingTo: BH (>= 1.66.0), Rcpp (>= 0.12.0), RcppEigen (>= 0.3.3.3.0),
         RcppParallel (>= 5.0.1), rstan (>= 2.18.1), StanHeaders (>=
         2.18.0)
@@ -36,7 +38,7 @@ VignetteBuilder: knitr
 Config/testthat/edition: 3
 LazyData: true
 NeedsCompilation: yes
-Packaged: 2022-08-31 19:09:03 UTC; root
+Packaged: 2023-02-24 16:05:11 UTC; root
 Author: Virgile Baudrot [aut, cre],
   Sandrine Charles [aut],
   Christelle Lopes [aut],
@@ -45,4 +47,4 @@ Author: Virgile Baudrot [aut, cre],
   Aurélie Siberchicot [ctb]
 Maintainer: Virgile Baudrot <virgile.baudrot@qonfluens.com>
 Repository: CRAN
-Date/Publication: 2022-09-01 15:10:02 UTC
+Date/Publication: 2023-03-15 15:30:02 UTC

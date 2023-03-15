@@ -39,9 +39,9 @@ matrix matrix_E(vector ke, matrix k, int N_k){
 
   matrix[N_k, N_k] m = add_diag(k, rep_vector(0,N_k)) ;
   vector[N_k] diag_k = - ke - m * rep_vector(1,N_k) ;
-  matrix[N_k, N_k] matrix_E = add_diag(k, diag_k) ;
+  matrix[N_k, N_k] matrix_E_rtn = add_diag(k, diag_k) ;
 
-  return(matrix_E) ;
+  return(matrix_E_rtn) ;
 }
 
 matrix matrix_I(int k){

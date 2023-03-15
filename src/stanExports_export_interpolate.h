@@ -234,14 +234,14 @@ matrix_E(const Eigen::Matrix<T0__, Eigen::Dynamic, 1>& ke,
         stan::math::fill(diag_k, DUMMY_VAR__);
         stan::math::assign(diag_k,subtract(minus(ke), multiply(m, rep_vector(1, N_k))));
         current_statement_begin__ = 43;
-        validate_non_negative_index("matrix_E", "N_k", N_k);
-        validate_non_negative_index("matrix_E", "N_k", N_k);
-        Eigen::Matrix<local_scalar_t__, Eigen::Dynamic, Eigen::Dynamic> matrix_E(N_k, N_k);
-        stan::math::initialize(matrix_E, DUMMY_VAR__);
-        stan::math::fill(matrix_E, DUMMY_VAR__);
-        stan::math::assign(matrix_E,add_diag(k, diag_k));
+        validate_non_negative_index("matrix_E_rtn", "N_k", N_k);
+        validate_non_negative_index("matrix_E_rtn", "N_k", N_k);
+        Eigen::Matrix<local_scalar_t__, Eigen::Dynamic, Eigen::Dynamic> matrix_E_rtn(N_k, N_k);
+        stan::math::initialize(matrix_E_rtn, DUMMY_VAR__);
+        stan::math::fill(matrix_E_rtn, DUMMY_VAR__);
+        stan::math::assign(matrix_E_rtn,add_diag(k, diag_k));
         current_statement_begin__ = 45;
-        return stan::math::promote_scalar<fun_return_scalar_t__>(matrix_E);
+        return stan::math::promote_scalar<fun_return_scalar_t__>(matrix_E_rtn);
         }
     } catch (const std::exception& e) {
         stan::lang::rethrow_located(e, current_statement_begin__, prog_reader__());
