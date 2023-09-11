@@ -59,7 +59,7 @@ ppc.fitPBK <- function(x, ...){
     geom_abline(slope = 1) +
     geom_linerange(
       aes(x = observation,ymin = qinf95, ymax = qsup95, color = color),
-      position = position_dodge(width=0.5)) +
+      position = position_dodge(width = 0.5)) +
     geom_point(aes(x = observation, y = q50),
                position = position_dodge(width=0.5))
 

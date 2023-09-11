@@ -14,7 +14,7 @@ data {
   vector[N_comp] ku_nest;
   matrix[N_comp,N_comp] k_nest;
 
-  real val_obs_comp[N_obs_comp,N_rep,N_comp];
+  array[N_obs_comp,N_rep,N_comp] real val_obs_comp;
 
   real t0;
 
@@ -24,12 +24,12 @@ data {
 
 }
 parameters {
-  real log10ku[N_comp];
-  real log10ke[N_comp];
+  array[N_comp] real log10ku;
+  array[N_comp] real log10ke;
 
-  real log10k[N_comp,N_comp];
+  array[N_comp,N_comp] real log10k;
 
-  real<lower=0> sigma[N_comp];
+  array[N_comp] real<lower=0> sigma;
 }
 transformed parameters{
 
@@ -86,8 +86,8 @@ model {
 }
 generated quantities {
   // change Cgen_comp to val_gen_comp
-  real val_pred_comp[N_obs_comp, N_comp];
-  real log_lik[N_obs_comp, N_rep, N_comp];
+  array[N_obs_comp, N_comp] real val_pred_comp;
+  array[N_obs_comp, N_rep, N_comp] real log_lik;
 
   for(i_comp in 1:N_comp){
     for(t in 1:N_obs_comp){
