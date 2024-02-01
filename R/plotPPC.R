@@ -40,13 +40,13 @@ ppc.fitPBK <- function(x, ...){
   df_data = do.call("rbind", ls_data)
 
   # data.frame for prediction
-  Cpred_quant <- lapply(1:out_data$N_comp, function(i_comp){
-    df = df_quant95_(out_fit$Cpred_comp[,,i_comp])
+  val_pred_quant <- lapply(1:out_data$N_comp, function(i_comp){
+    df = df_quant95_(out_fit$val_pred_comp[,,i_comp])
     df$time = out_data$time_obs_comp
     df$compartment = out_data$col_compartment[i_comp]
     return(df)
   })
-  df_fit <- do.call("rbind", Cpred_quant)
+  df_fit <- do.call("rbind", val_pred_quant)
 
   df_ppc <- merge(x = df_data, y = df_fit, by = c("time", "compartment"), all = TRUE)
   df_ppc$color <- with(df_ppc, ifelse(qinf95 > observation | qsup95 < observation, "out", "in"))
