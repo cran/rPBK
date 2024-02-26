@@ -1,7 +1,7 @@
 Package: rPBK
 Title: Inference and Prediction of Generic Physiologically-Based
         Kinetic Models
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: c(
     person("Virgile", "Baudrot", role = c("aut","cre"), email = "virgile.baudrot@qonfluens.com"),
     person("Sandrine", "Charles", role = "aut"),
@@ -10,8 +10,8 @@ Authors@R: c(
     person("Dominique", "Lamonica", role = "ctb"),
     person("Aurélie", "Siberchicot", role = "ctb")
     )
-BugReports: https://gitlab.com/qonfluens/model/rPBK
-URL: https://gitlab.com/qonfluens/model/rPBK
+BugReports: https://gitlab.in2p3.fr/mosaic-software/rPBK/-/issues
+URL: https://gitlab.in2p3.fr/mosaic-software/rPBK/
 Description: Fit and simulate any kind of
     physiologically-based kinetic ('PBK') models whatever the number of compartments.
     Moreover, it allows to account for any link between pairs of compartments, as
@@ -39,7 +39,7 @@ VignetteBuilder: knitr
 Config/testthat/edition: 3
 LazyData: true
 NeedsCompilation: yes
-Packaged: 2024-02-01 08:52:03 UTC; virgile
+Packaged: 2024-02-26 16:18:20 UTC; virgile
 Author: Virgile Baudrot [aut, cre],
   Sandrine Charles [aut],
   Christelle Lopes [aut],
@@ -48,4 +48,4 @@ Author: Virgile Baudrot [aut, cre],
   Aurélie Siberchicot [ctb]
 Maintainer: Virgile Baudrot <virgile.baudrot@qonfluens.com>
 Repository: CRAN
-Date/Publication: 2024-02-01 09:20:02 UTC
+Date/Publication: 2024-02-26 17:00:02 UTC

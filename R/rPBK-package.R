@@ -1,9 +1,9 @@
 #' The 'rPBK' package.
-#' 
-#' @keywords internal 
+#'
+#' @keywords internal
 #' "_PACKAGE"
-#' 
-#' @description Fit and simulate any kind ofphysiologically-based kinetic ('PBK') models whatever 
+#'
+#' @description Fit and simulate any kind of physiologically-based kinetic ('PBK') models whatever
 #' the number of compartments
 #'
 #' @name rPBK-package

@@ -1,4 +1,4 @@
-c4d6f62c21f7a21e59cc51febed40aa6 *DESCRIPTION
+60af49fc1ea9566ce832897bc4c888c0 *DESCRIPTION
 8ff3b222689a43ffd985fcdd85e651bb *LICENSE
 acd26f38671a510a5abb2b440c446b9f *NAMESPACE
 a81ab6761922f438f8baefa5ebc3a798 *R/data.R
@@ -8,9 +8,9 @@ a81ab6761922f438f8baefa5ebc3a798 *R/data.R
 b98a9521da24adb3a467b2e15078da61 *R/plotFIT.R
 d7a43082cd3e1c0c0f7e513578757bdc *R/plotPPC.R
 37a5ee7232bec57463be7168f22b676b *R/predictPBK.R
-d61a4c008a929f095a8aed03a7ab6205 *R/rPBK-package.R
+45337118208b2c67ba55967c404296c4 *R/rPBK-package.R
 1a5dadfc34be6c7e4933a0b7cd002c27 *R/stanmodels.R
-86f22d147f60dd184f3e05df96d4d0e2 *README.md
+074aaac65881f2753d07991ffb0d4116 *README.md
 4cae9dc17aeb5984178cdf81614a8e8b *build/vignette.rds
 7e297a31e37e77c201a2bacff2f979eb *configure
 5fdedca26c8830d7bb06aa1c4a634204 *configure.win
@@ -19,7 +19,7 @@ d61a4c008a929f095a8aed03a7ab6205 *R/rPBK-package.R
 a0d0c0c5aedcebc7339daa8c1d3cdf87 *data/fitPBK_C4.rda
 d19ae2a9b41fcc9cc4831589e0d4b70b *inst/doc/Examples.R
 22bc4d1ad48d17abb02214aca6c9258a *inst/doc/Examples.Rmd
-f92729b23d3b78e0198ac47a69c8bb58 *inst/doc/Examples.html
+bba61561a850a1249548846562ecf193 *inst/doc/Examples.html
 855c064dbf8deaff96c8dc8a87169109 *inst/include/stan_meta_header.hpp
 5ce4504798f6566f12f388f155874d74 *inst/stan/PBK_AD.stan
 b4b857a1b9ecedcfa8a2cd9381d2048c *inst/stan/export_interpolate.stan
