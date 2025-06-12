@@ -4,5 +4,5 @@ test_that("ppc", {
     # (3) run plot
     ppcPBK_C4 = ppc(fitPBK_C4)
     # (4) check plot has been executed:
-    testthat::expect_true(all(class(ppcPBK_C4) == c("gg", "ggplot")))
+    testthat::expect_true(ggplot2::is_ggplot(ppcPBK_C4))
 })

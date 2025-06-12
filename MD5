@@ -1,4 +1,4 @@
-60af49fc1ea9566ce832897bc4c888c0 *DESCRIPTION
+9e3292fc95da34355812536c61f925f9 *DESCRIPTION
 8ff3b222689a43ffd985fcdd85e651bb *LICENSE
 acd26f38671a510a5abb2b440c446b9f *NAMESPACE
 a81ab6761922f438f8baefa5ebc3a798 *R/data.R
@@ -10,8 +10,8 @@ d7a43082cd3e1c0c0f7e513578757bdc *R/plotPPC.R
 37a5ee7232bec57463be7168f22b676b *R/predictPBK.R
 45337118208b2c67ba55967c404296c4 *R/rPBK-package.R
 1a5dadfc34be6c7e4933a0b7cd002c27 *R/stanmodels.R
-074aaac65881f2753d07991ffb0d4116 *README.md
-4cae9dc17aeb5984178cdf81614a8e8b *build/vignette.rds
+446aa18c7d09151e8026f79c6fe01422 *README.md
+a89c90dc9abd1939a2512c77e8227da5 *build/vignette.rds
 7e297a31e37e77c201a2bacff2f979eb *configure
 5fdedca26c8830d7bb06aa1c4a634204 *configure.win
 725aa566337e96855f67f625f1e12a78 *data/dataCompartment4.rda
@@ -19,7 +19,7 @@ d7a43082cd3e1c0c0f7e513578757bdc *R/plotPPC.R
 a0d0c0c5aedcebc7339daa8c1d3cdf87 *data/fitPBK_C4.rda
 d19ae2a9b41fcc9cc4831589e0d4b70b *inst/doc/Examples.R
 22bc4d1ad48d17abb02214aca6c9258a *inst/doc/Examples.Rmd
-bba61561a850a1249548846562ecf193 *inst/doc/Examples.html
+4458dd06828a6d423cc8b642d6599e93 *inst/doc/Examples.html
 855c064dbf8deaff96c8dc8a87169109 *inst/include/stan_meta_header.hpp
 5ce4504798f6566f12f388f155874d74 *inst/stan/PBK_AD.stan
 b4b857a1b9ecedcfa8a2cd9381d2048c *inst/stan/export_interpolate.stan
@@ -34,7 +34,7 @@ ac05ac157fabf6afa35adf1e59b5c68a *man/df_quant95_.Rd
 cd023096eef003f0490731dbed190dc1 *man/fitPBK.Rd
 93d1be1dcb7018ffec4a3d7c93224b23 *man/fitPBK_C4.Rd
 35a2806b896917639a6c067c57617de6 *man/plot.fitPBK.Rd
-fac66e5492f22e430147f7e6ff141b3f *man/rPBK-package.Rd
+d956c52f3c57fe859d7b4701d330f744 *man/rPBK-package.Rd
 564c40d0e86bb1e58d039ff240e97b9f *src/Makevars
 66d6aef607935be5ead2bd71ebf6e98f *src/Makevars.win
 3f5ab38b36a7e543746d9e855caed211 *src/RcppExports.cpp
@@ -46,6 +46,6 @@ ff6ef5d032760229db3a164199e82cc8 *src/stanExports_export_interpolate.cc
 758c5f1816f390ef4772913e1ba0f2f1 *tests/testthat/test-data.R
 867feb7f3e7a5a1a17eab9938e797bbc *tests/testthat/test-dataPBK.R
 54fe5a40b662fcee26408fadffddf819 *tests/testthat/test-fitPBK.R
-806793ecaaca6fba123af7adf77e8a16 *tests/testthat/test-plot.R
-34272941ef106ad6d20941dfb862b5fe *tests/testthat/test-ppc.R
+5ca64852180432713e2c5b14a276be74 *tests/testthat/test-plot.R
+eaae35ac7d5411b32a75671b8a8fa887 *tests/testthat/test-ppc.R
 22bc4d1ad48d17abb02214aca6c9258a *vignettes/Examples.Rmd

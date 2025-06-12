@@ -1,7 +1,7 @@
 Package: rPBK
 Title: Inference and Prediction of Generic Physiologically-Based
         Kinetic Models
-Version: 0.2.4
+Version: 0.2.5
 Authors@R: c(
     person("Virgile", "Baudrot", role = c("aut","cre"), email = "virgile.baudrot@qonfluens.com"),
     person("Sandrine", "Charles", role = "aut"),
@@ -25,7 +25,7 @@ Description: Fit and simulate any kind of
     Charles et al. (2022) <doi:10.1101/2022.04.29.490045>.
 License: MIT + file LICENSE
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Biarch: true
 Depends: R (>= 3.4.0)
 Imports: ggplot2, methods, Rcpp (>= 0.12.0), rstan (>= 2.26.0),
@@ -39,7 +39,7 @@ VignetteBuilder: knitr
 Config/testthat/edition: 3
 LazyData: true
 NeedsCompilation: yes
-Packaged: 2024-02-26 16:18:20 UTC; virgile
+Packaged: 2025-06-12 09:54:32 UTC; virgile
 Author: Virgile Baudrot [aut, cre],
   Sandrine Charles [aut],
   Christelle Lopes [aut],
@@ -48,4 +48,4 @@ Author: Virgile Baudrot [aut, cre],
   Aurélie Siberchicot [ctb]
 Maintainer: Virgile Baudrot <virgile.baudrot@qonfluens.com>
 Repository: CRAN
-Date/Publication: 2024-02-26 17:00:02 UTC
+Date/Publication: 2025-06-12 11:10:01 UTC

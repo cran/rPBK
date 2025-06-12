@@ -5,7 +5,7 @@
 \alias{rPBK}
 \title{The 'rPBK' package.}
 \description{
-Fit and simulate any kind ofphysiologically-based kinetic ('PBK') models whatever
+Fit and simulate any kind of physiologically-based kinetic ('PBK') models whatever
 the number of compartments
 }
 \references{
